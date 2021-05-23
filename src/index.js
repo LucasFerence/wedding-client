@@ -1,17 +1,39 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+
+class Nav extends React.Component {
+
+    render() {
+        return (
+            <div class="nav">
+                <a class="navHeader" href="/">Ference</a>
+                <a class="navLink" href="https://google.com">RSVP</a>
+                <a class="navLink" href="https://reddit.com">When and where</a>
+            </div>
+        )
+    }
+}
+
+class App extends React.Component {
+
+    render() {
+        return (
+            <div>
+                <Nav />
+                <img
+                    class="headerImg"
+                    src={process.env.PUBLIC_URL + '/img/header.jpg'}
+                    alt="header">
+                </img>
+            </div>
+        );
+    }
+}
+
+// ========================================
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+    <App />,
+    document.getElementById('root')
+)
