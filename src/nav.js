@@ -1,6 +1,7 @@
 import React from 'react';
 import './nav.css';
 import Modal from './modal.js';
+import RsvpForm from './rsvpForm.js';
 
 class Nav extends React.Component {
 
@@ -24,15 +25,17 @@ class Nav extends React.Component {
 
     render() {
         return (
-            <div class="nav">
+            <div>
                 <Modal show={this.state.show} handleClose={this.hideModal}>
-                    <p>RSVP</p>
+                    <RsvpForm onSubmit={this.hideModal}/>
                 </Modal>
-                <div class="navBar"></div>
-                <div class="navElements">
-                    <a class="navHeader" href="/">Ference</a>
-                    <button class="navLink" onClick={this.showModal}>RSVP</button>
-                    <a class="navLink" href="/">When and where</a>
+                <div className="nav">
+                    <div className="navBar"></div>
+                    <div className="navElements">
+                        <a className="navHeader" href="/">Ference</a>
+                        <button className="navLink" onClick={this.showModal}>RSVP</button>
+                        <a className="navLink" href="/">When and where</a>
+                    </div>
                 </div>
             </div>
         )

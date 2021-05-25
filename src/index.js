@@ -10,7 +10,7 @@ class App extends React.Component {
             <div>
                 <Nav />
                 <img
-                    class="headerImg"
+                    className="headerImg"
                     src={process.env.PUBLIC_URL + '/img/header.jpg'}
                     alt="header">
                 </img>
