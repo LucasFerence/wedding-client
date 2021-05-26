@@ -35,6 +35,8 @@ class Nav extends React.Component {
                     <button className="navLink" onClick={this.showModal}>RSVP</button>
 
                     <a className="navLink" href="#gifts">GIFT REGISTRY</a>
+
+                    <a className="navLink" href="#people">PEOPLE</a>
                 </div>
             </div>
         )

@@ -16,8 +16,8 @@ class App extends React.Component {
                     alt="header">
                 </img>
 
-                <div id="gifts">
-                    <h1>GIFT REGISTRY</h1>
+                <div id="people">
+                    <h2>PEOPLE</h2>
                 </div>
                 
             </main>
