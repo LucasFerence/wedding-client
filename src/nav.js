@@ -30,12 +30,11 @@ class Nav extends React.Component {
                     <RsvpForm onSubmit={this.hideModal}/>
                 </Modal>
                 <div className="nav">
-                    <div className="navBar"></div>
-                    <div className="navElements">
-                        <a className="navHeader" href="/">Ference</a>
-                        <button className="navLink" onClick={this.showModal}>RSVP</button>
-                        <a className="navLink" href="/">Gifts</a>
-                    </div>
+                    <a className="navHeader" href="/">FERENCE</a>
+
+                    <button className="navLink" onClick={this.showModal}>RSVP</button>
+
+                    <a className="navLink" href="#gifts">GIFT REGISTRY</a>
                 </div>
             </div>
         )

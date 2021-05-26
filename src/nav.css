@@ -1,20 +1,9 @@
 .nav {
     position: fixed;
     width: 100%;
-}
-
-.navBar {
-    position: absolute;
-    background-color: whitesmoke;
-    width: 100%;
-    opacity: 55%;
-    height: 64px;
-}
-
-.navElements {
     left: 0;
     right: 0;
-    position: absolute;
+    background: rgb(245, 245, 245, 0.55);
 }
 
 .navHeader, .navLink {

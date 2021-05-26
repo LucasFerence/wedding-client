@@ -15,6 +15,11 @@ class App extends React.Component {
                     src={process.env.PUBLIC_URL + '/img/header.jpg'}
                     alt="header">
                 </img>
+
+                <div id="gifts">
+                    <h1>GIFT REGISTRY</h1>
+                </div>
+                
             </main>
         );
     }
