@@ -1,12 +1,46 @@
 form {
-    margin: 90px 20px;
+    margin-top: 85px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
-.textInput {
-    font-size: 25px;
-    margin: 25px;
+.formLabel {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-size: x-large;
+}
+
+.textInput{
+    display: block;
+    text-align: left;
+    font-size: larger;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.dropdown {
+    display: block;
+    font-size: larger;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
 }
 
 .submitButton {
-    margin: 25px;
+    display: block;
+    margin-top: 25px;
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 5%;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.submitButton:hover {
+    background-color: var(--sage);
 }

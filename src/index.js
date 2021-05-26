@@ -7,14 +7,15 @@ class App extends React.Component {
 
     render() {
         return (
-            <div>
+            <main>
                 <Nav />
+
                 <img
                     className="headerImg"
                     src={process.env.PUBLIC_URL + '/img/header.jpg'}
                     alt="header">
                 </img>
-            </div>
+            </main>
         );
     }
 }
