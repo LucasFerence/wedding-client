@@ -10,14 +10,22 @@ class App extends React.Component {
             <main>
                 <Nav />
 
-                <img
-                    className="headerImg"
-                    src={process.env.PUBLIC_URL + '/img/header.jpg'}
-                    alt="header">
-                </img>
+                <div className="headerContainer">
+                    
+                    <div className="centered">
+                        <h1 id="weddingDate">June 12, 2022</h1>
+                    </div>
+
+                    <img
+                        className="headerImg"
+                        src={process.env.PUBLIC_URL + '/img/header.jpg'}
+                        alt="header">
+                    </img>
+                </div>
+                
 
                 <div id="people">
-                    <h2>PEOPLE</h2>
+                    <h2 className="sectionHeader">PEOPLE</h2>
                 </div>
                 
             </main>
