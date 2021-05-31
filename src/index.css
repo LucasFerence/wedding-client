@@ -37,13 +37,13 @@
 
 .sectionHeader {
     padding: 14px 28px;
+    text-align: center;
 }
 
 .contentSection {
-    margin: 20px;
-    border: 2px solid var(--sage);
-    border-radius: 5px;
-    background-color: whitesmoke;
+    display: inline-block;
+    width: 100vw;
+    min-width: 50vw;
 }
 
 .people-group {
@@ -51,4 +51,16 @@
     margin-top: 10px;
     margin-bottom: 10px;
     justify-content: space-around;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.rose-background {
+    background-color: var(--dustyrose);
+    border-radius: 10px;
+}
+
+.sage-background {
+    background-color: var(--sage);
+    border-radius: 10px;
 }

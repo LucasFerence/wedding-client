@@ -1,21 +1,20 @@
 .card-main {
     display: inline-block;
-    border-radius: 5px;
-    background: lightgrey;
-    padding: 20px;
+    border-radius: 10px;
+    background: whitesmoke;
+    padding: 1vw 1vw;
 }
 
-.card-main h3 {
+.card-main h3, h4 {
     text-align: center;
-    margin: 10px 0px;
+    margin: .5vh 0;
 }
 
 .card-main img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     height: 15vw;
     width: 15vw;
     object-fit: cover;
-    border-radius: 50%;
+    margin-bottom: 2vh;
+    border-radius: 10px;
 }

@@ -30,20 +30,40 @@ class App extends React.Component {
                 <div id="people" className="contentSection">
                     <h2 className="sectionHeader">PEOPLE</h2>
 
-                    <div className="people-group">
-                        <Card title="Lucas Ference" img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
-                        <Card title="Adam Orkin" img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
-                        <Card title="Jacob Twigg" img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
-                        <Card title="Ryan Gilmartin" img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
-                        <Card title="Jacob Ference" img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
+                    <div className="people-group rose-background">
+                        <Card
+                            title="Kristi Senft" role="Bride"
+                            img={process.env.PUBLIC_URL + '/img/kristi.jpeg'}/>
+                        <Card
+                            title="Shelby Smith" role="Maid of Honor"
+                            img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
+                        <Card
+                            title="Morgan Walker" role="Bridesmaid"
+                            img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
+                        <Card
+                            title="Matthew Senft" role="Bridesmaid"
+                            img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
+                        <Card
+                            title="Kaitlyn Senft" role="Bridesmaid"
+                            img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
                     </div>
 
-                    <div className="people-group">
-                        <Card title="Kristi Ference" img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
-                        <Card title="Shelby Smith" img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
-                        <Card title="Morgan Walker" img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
-                        <Card title="Matthew Senft" img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
-                        <Card title="Kaitlyn Senft" img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
+                    <div className="people-group sage-background">
+                        <Card 
+                            title="Lucas Ference" role="Groom"
+                            img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
+                        <Card
+                            title="Adam Orkin" role="Best Man"
+                            img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
+                        <Card
+                            title="Jacob Twigg" role="Groomsman"
+                            img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
+                        <Card
+                            title="Ryan Gilmartin" role="Groomsman"
+                            img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
+                        <Card
+                            title="Jacob Ference" role="Groosman"
+                            img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
                     </div>
                     
                 </div>
