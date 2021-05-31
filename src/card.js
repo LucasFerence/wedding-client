@@ -6,7 +6,16 @@ class Card extends React.Component {
 
     render() {
         return(
-            <div></div>
+            <div className="card-main">
+                <h3>{this.props.title}</h3>
+                <img
+                    src={this.props.img}
+                    alt="lucas"
+                >
+                </img>
+            </div>
         );
     }
 }
+
+export default Card;

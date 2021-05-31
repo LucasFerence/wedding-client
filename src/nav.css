@@ -4,6 +4,7 @@
     left: 0;
     right: 0;
     background: rgb(245, 245, 245, 0.55);
+    z-index: 1;
 }
 
 .navHeader, .navLink {
