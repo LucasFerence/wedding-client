@@ -2,18 +2,27 @@
     display: inline-block;
     border-radius: 10px;
     background: whitesmoke;
+    border: 1px solid var(--sage);
     padding: 1vw 1vw;
+    max-width: 16vw;
 }
 
-.card-main h3, h4 {
+.card-main h3 {
     text-align: center;
     margin: .5vh 0;
+    font-size: 2vw;
+}
+
+.card-main h4 {
+    text-align: center;
+    margin: .5vh 0;
+    font-size: 1.5vw;
 }
 
 .card-main img {
     display: block;
-    height: 15vw;
-    width: 15vw;
+    width: 16vw;
+    height: 16vw;
     object-fit: cover;
     margin-bottom: 2vh;
     border-radius: 10px;

@@ -30,7 +30,7 @@ class App extends React.Component {
                 <div id="people" className="contentSection">
                     <h2 className="sectionHeader">PEOPLE</h2>
 
-                    <div className="people-group rose-background">
+                    <div className="people-group">
                         <Card
                             title="Kristi Senft" role="Bride"
                             img={process.env.PUBLIC_URL + '/img/kristi.jpeg'}/>
@@ -41,14 +41,14 @@ class App extends React.Component {
                             title="Morgan Walker" role="Bridesmaid"
                             img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
                         <Card
-                            title="Matthew Senft" role="Bridesmaid"
+                            title="Kaitlyn Senft" role="Bridesmaid"
                             img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
                         <Card
-                            title="Kaitlyn Senft" role="Bridesmaid"
+                            title="Matthew Schlessinger" role="Bridesman"
                             img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
                     </div>
 
-                    <div className="people-group sage-background">
+                    <div className="people-group">
                         <Card 
                             title="Lucas Ference" role="Groom"
                             img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
