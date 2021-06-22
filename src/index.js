@@ -36,10 +36,10 @@ class App extends React.Component {
                             img={process.env.PUBLIC_URL + '/img/kristi.jpeg'}/>
                         <Card
                             title="Shelby Smith" role="Maid of Honor"
-                            img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
+                            img={process.env.PUBLIC_URL + '/img/shelbyImage.jpg'}/>
                         <Card
                             title="Morgan Walker" role="Bridesmaid"
-                            img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
+                            img={process.env.PUBLIC_URL + '/img/morganImage.jpg'}/>
                         <Card
                             title="Kaitlyn Senft" role="Bridesmaid"
                             img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
