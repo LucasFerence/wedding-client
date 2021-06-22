@@ -42,10 +42,10 @@ class App extends React.Component {
                             img={process.env.PUBLIC_URL + '/img/morganImage.jpg'}/>
                         <Card
                             title="Kaitlyn Senft" role="Bridesmaid"
-                            img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
+                            img={process.env.PUBLIC_URL + '/img/matthewImage.jpg'}/>
                         <Card
                             title="Matthew Schlessinger" role="Bridesman"
-                            img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
+                            img={process.env.PUBLIC_URL + '/img/matthewImage.jpg'}/>
                     </div>
 
                     <div className="people-group">
