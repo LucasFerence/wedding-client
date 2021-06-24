@@ -27,43 +27,43 @@ class App extends React.Component {
                 </div>
                 
 
-                <div id="people" className="contentSection">
-                    <h2 className="sectionHeader">PEOPLE</h2>
+                <div id="bridal-party" className="contentSection">
+                    <h2 className="sectionHeader">BRIDAL PARTY</h2>
 
                     <div className="people-group">
                         <Card
-                            title="Kristi Senft" role="Bride"
-                            img={process.env.PUBLIC_URL + '/img/kristi.jpeg'}/>
+                            title="Kristi Senft" role="Bride" note="His queen"
+                            img={process.env.PUBLIC_URL + '/img/kristiNewImage.jpg'}/>
                         <Card
-                            title="Shelby Smith" role="Maid of Honor"
+                            title="Shelby Smith" role="Maid of Honor" note="Friend of bride"
                             img={process.env.PUBLIC_URL + '/img/shelbyImage.jpg'}/>
                         <Card
-                            title="Morgan Walker" role="Bridesmaid"
+                            title="Morgan Walker" role="Bridesmaid" note="Friend of bride"
                             img={process.env.PUBLIC_URL + '/img/morganImage.jpg'}/>
                         <Card
-                            title="Kaitlyn Senft" role="Bridesmaid"
-                            img={process.env.PUBLIC_URL + '/img/matthewImage.jpg'}/>
+                            title="Kaitlyn Senft" role="Bridesmaid" note="Sister of bride"
+                            img={process.env.PUBLIC_URL + '/img/kaitlynImage.jpg'}/>
                         <Card
-                            title="Matthew Schlessinger" role="Bridesman"
+                            title="Matthew Schlessinger" role="Bridesman" note="Cousin of bride"
                             img={process.env.PUBLIC_URL + '/img/matthewImage.jpg'}/>
                     </div>
 
                     <div className="people-group">
                         <Card 
-                            title="Lucas Ference" role="Groom"
+                            title="Lucas Ference" role="Groom" note="Her king"
                             img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
                         <Card
                             title="Adam Orkin" role="Best Man"
                             img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
                         <Card
-                            title="Jacob Twigg" role="Groomsman"
-                            img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
+                            title="Jacob Twigg" role="Groomsman" note="12 handicap"
+                            img={process.env.PUBLIC_URL + '/img/jacobTwiggImage.jpg'}/>
                         <Card
                             title="Ryan Gilmartin" role="Groomsman"
                             img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
                         <Card
-                            title="Jacob Ference" role="Groosman"
-                            img={process.env.PUBLIC_URL + '/img/lucas.jpg'}/>
+                            title="Jacob Ference" role="Groomsman"
+                            img={process.env.PUBLIC_URL + '/img/jacobFerenceImage.jpg'}/>
                     </div>
                     
                 </div>
