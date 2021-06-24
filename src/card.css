@@ -5,6 +5,7 @@
     border: 1px solid var(--sage);
     padding: 1vw 1vw;
     max-width: 16vw;
+    font-family: 'Merriweather', serif;
 }
 
 .card-main h3 {

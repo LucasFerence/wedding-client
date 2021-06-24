@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Pinyon+Script&family=Poppins&display=swap');
 :root {
     --dustyrose: rgb(220, 174, 150);
     --sage: rgb(155, 161, 123);
@@ -16,18 +17,19 @@
 
 .centeredTitle {
     position: absolute;
-    top: 15%;
-    width: 7.5vw;
+    top: 10%;
+    width: 9.5vw;
     text-align: center;
     right: 2.5%;
     padding: 0 1.5vw;
     border: 0.2vw solid var(--dustyrose);
     border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
 }
 
 #weddingDate {
     color: whitesmoke;
-    font-size: 7.5vw;
+    font-size: 6.5vw;
     font-weight: normal;
 }
 
@@ -40,6 +42,7 @@
     padding: 14px 28px;
     text-align: center;
     font-size: 2.5vw;
+    font-family: 'Merriweather', serif;
 }
 
 .contentSection {
