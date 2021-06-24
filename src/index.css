@@ -16,13 +16,13 @@
 
 .centeredTitle {
     position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 15%;
+    width: 7.5vw;
+    text-align: center;
+    right: 2.5%;
     padding: 0 1.5vw;
     border: 0.2vw solid var(--dustyrose);
     border-radius: 5px;
-    background-color: rgb(155, 161, 123, 0.5);
 }
 
 #weddingDate {
