@@ -32,8 +32,6 @@ class Nav extends React.Component {
                 <div className="nav">
                     <a className="navHeader" href="/">#FerenceForAlways</a>
 
-                    <button className="navLink" onClick={this.showModal}>RSVP</button>
-
                     <a className="navLink" href="#gifts">GIFT REGISTRY</a>
 
                     <a className="navLink" href="#bridal-party">BRIDAL PARTY</a>

@@ -39,7 +39,3 @@
 .navLink:hover {
     background-color: var(--dustyrose);
 }
-
-.navHeader:hover {
-    background-color: var(--sage);
-}

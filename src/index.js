@@ -33,7 +33,7 @@ class App extends React.Component {
                     <div className="people-group">
                         <Card
                             title="Kristi Senft" role="Bride" note="His queen"
-                            img={process.env.PUBLIC_URL + '/img/kristiNewImage.jpg'}/>
+                            img={process.env.PUBLIC_URL + '/img/kristiImage.jpg'}/>
                         <Card
                             title="Shelby Smith" role="Maid of Honor" note="Friend of bride"
                             img={process.env.PUBLIC_URL + '/img/shelbyImage.jpg'}/>
@@ -59,8 +59,8 @@ class App extends React.Component {
                             title="Jacob Twigg" role="Groomsman" note="12 handicap"
                             img={process.env.PUBLIC_URL + '/img/jacobTwiggImage.jpg'}/>
                         <Card
-                            title="Ryan Gilmartin" role="Groomsman" note="Mom"
-                            img={process.env.PUBLIC_URL + '/img/ryanImage.jpeg'}/>
+                            title="Ryan Gilmartin" role="Groomsman" note="Likes long walks on the beach"
+                            img={process.env.PUBLIC_URL + '/img/ryanImage.jpg'}/>
                         <Card
                             title="Jacob Ference" role="Groomsman" note="Chronically short"
                             img={process.env.PUBLIC_URL + '/img/jacobFerenceImage.jpg'}/>
