@@ -5,6 +5,7 @@
     border: 1px solid var(--sage);
     padding: 1vw 1vw;
     max-width: 16vw;
+    font-family: 'Merriweather', serif;
 }
 
 .card-main h3 {
@@ -14,6 +15,12 @@
 }
 
 .card-main h4 {
+    text-align: center;
+    margin: .5vh 0;
+    font-size: 2vw;
+}
+
+.card-main h5 {
     text-align: center;
     margin: .5vh 0;
     font-size: 1.5vw;
