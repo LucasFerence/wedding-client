@@ -1,0 +1,54 @@
+import React from 'react';
+import './nav.css';
+import Modal from '../modal/modal.js';
+import RsvpForm from '../form/rsvpForm.js';
+
+class Nav extends React.Component {
+
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            show: false
+        }
+        this.showModal = this.showModal.bind(this);
+        this.hideModal = this.hideModal.bind(this);
+    }
+
+    showModal = () => {
+        this.setState({ show: true });
+    };
+    
+    hideModal = () => {
+        this.setState({ show: false });
+    };
+
+    render() {
+        return (
+            <div>
+                <Modal show={this.state.show} handleClose={this.hideModal}>
+                    <RsvpForm onSubmit={this.hideModal}/>
+                </Modal>
+                
+                <nav>
+                    <img
+                        className="logo"
+                        src={process.env.PUBLIC_URL + '/img/websiteLogo.png'}
+                        alt="logo"
+                    />
+
+                    <ul class="nav-links">
+                        <li className="nav-item">
+                            <a href="#bridal-party">BRIDAL PARTY</a>
+                        </li>
+                        <li className="nav-item">
+                            <a href="#gift-registry">GIFT REGISTRY</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        )
+    }
+}
+
+export default Nav;

@@ -1,0 +1,29 @@
+@import '/src/common/fonts.css';
+
+.cover-container {
+    position: relative;
+    width: 100%;
+}
+
+.cover-text {
+    position: absolute;
+    top: 10%;
+    width: 7.5em;
+    text-align: center;
+    right: 2.5%;
+    padding: 0 1.5vw;
+    border: 0.2em solid var(--dustyrose);
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#wedding-date {
+    color: whitesmoke;
+    font-size: 6.5vw;
+    font-weight: normal;
+}
+
+.cover-img {
+    width: 100%;
+    height: auto;
+}

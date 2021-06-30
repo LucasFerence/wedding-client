@@ -1,0 +1,33 @@
+@import '/src/common/fonts.css';
+
+nav {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    background: rgb(245, 245, 245, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 0.5em;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 0.85em 0.5em;
+    font-size: 1.75rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-item:hover {
+    background-color: var(--dustyrose);
+}
