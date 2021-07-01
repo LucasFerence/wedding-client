@@ -31,12 +31,12 @@ class Nav extends React.Component {
                     />
                     <ul className="nav-list">
                         <li className="nav-item">
-                            <a className="nav-link" href="#bridal-party">
+                            <a className="nav-link" href="#bridal-party" onClick={this.toggleMobileNav}>
                                 Bridal Party
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#gift-registry">
+                            <a className="nav-link" href="#gift-registry" onClick={this.toggleMobileNav}>
                                 Gift Registry
                             </a>
                         </li>
