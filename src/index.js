@@ -9,10 +9,10 @@ class App extends React.Component {
 
     render() {
         return (
-            <body>
+            <main>
                 <Nav />
                 <Cover />
-            </body>
+            </main>
         );
     }
 }

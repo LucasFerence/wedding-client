@@ -1,7 +1,5 @@
 import React from 'react';
 import './nav.css';
-import Modal from '../modal/modal.js';
-import RsvpForm from '../form/rsvpForm.js';
 
 class Nav extends React.Component {
 
@@ -9,42 +7,43 @@ class Nav extends React.Component {
         super(props);
 
         this.state = {
-            show: false
-        }
-        this.showModal = this.showModal.bind(this);
-        this.hideModal = this.hideModal.bind(this);
+            showMobileNav: false
+        };
+
+        this.toggleMobileNav = this.toggleMobileNav.bind(this);
     }
 
-    showModal = () => {
-        this.setState({ show: true });
-    };
-    
-    hideModal = () => {
-        this.setState({ show: false });
+    toggleMobileNav = () => {
+        console.log('Toggle nav')
+        this.setState(prev => ({
+            showMobileNav: !prev.showMobileNav
+        }));
     };
 
     render() {
         return (
             <div>
-                <Modal show={this.state.show} handleClose={this.hideModal}>
-                    <RsvpForm onSubmit={this.hideModal}/>
-                </Modal>
-                
-                <nav>
+                <nav className={"navbar " + (this.state.showMobileNav ? "open" : null)}>
                     <img
-                        className="logo"
+                        className="navbar-logo"
                         src={process.env.PUBLIC_URL + '/img/websiteLogo.png'}
                         alt="logo"
                     />
-
-                    <ul class="nav-links">
+                    <ul className="nav-list">
                         <li className="nav-item">
-                            <a href="#bridal-party">BRIDAL PARTY</a>
+                            <a className="nav-link" href="#bridal-party">
+                                Bridal Party
+                            </a>
                         </li>
                         <li className="nav-item">
-                            <a href="#gift-registry">GIFT REGISTRY</a>
+                            <a className="nav-link" href="#gift-registry">
+                                Gift Registry
+                            </a>
                         </li>
                     </ul>
+                    <div className="menu-toggle" onClick={this.toggleMobileNav}>
+                        <div className="hamburger" />
+                    </div>
                 </nav>
             </div>
         )
