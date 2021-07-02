@@ -14,7 +14,7 @@
 
 .navbar-logo {
     padding: 0.5em;
-    width: 60vw;
+    width: 15em;
 }
 
 .nav-list {
@@ -105,7 +105,7 @@
 
 @media screen and (min-width: 768px) {
     .navbar-logo {
-        height: 6vh;
+        width: 12em;
     }
 
     .nav-list {
