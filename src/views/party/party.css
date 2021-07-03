@@ -1,0 +1,14 @@
+
+.party-header {
+    display: block;
+    padding: 0.5em;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.people-group {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}

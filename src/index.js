@@ -2,8 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import './index.css';
-import Nav from './components/nav/nav.js';
-import Cover from './components/cover/cover.js';
+
+import Nav from 'components/nav/nav.js';
+import Cover from 'views/cover/cover.js';
+import Party from 'views/party/party.js';
 
 class App extends React.Component {
 
@@ -12,6 +14,7 @@ class App extends React.Component {
             <main>
                 <Nav />
                 <Cover />
+                <Party />
             </main>
         );
     }

@@ -1,36 +1,37 @@
-.card-main {
+.card-container {
+    width: 100vw;
     display: inline-block;
+}
+
+.card-main {
+    text-align: center;
+    margin: 0.5em 0.5em;
+    box-sizing: border-box;
     border-radius: 10px;
     background: whitesmoke;
     border: 1px solid var(--sage);
-    padding: 1vw 1vw;
-    max-width: 16vw;
-    font-family: 'Merriweather', serif;
-}
-
-.card-main h3 {
-    text-align: center;
-    margin: .5vh 0;
-    font-size: 2vw;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
 }
 
 .card-main h4 {
-    text-align: center;
-    margin: .5vh 0;
-    font-size: 2vw;
+    margin: 0.25em 0;
+    font-size: 1.5rem;
+}
+.card-main h3 {
+    margin: 0.25em 0;
+    font-size: 1.75rem;
 }
 
 .card-main h5 {
-    text-align: center;
-    margin: .5vh 0;
-    font-size: 1.5vw;
+    margin: .25em 0;
+    font-size: 1.35rem;
 }
 
 .card-main img {
-    display: block;
-    width: 16vw;
-    height: 16vw;
+    width: 90vw;
+    height: 90vw;
     object-fit: cover;
-    margin-bottom: 2vh;
+    margin: 0.25em;
     border-radius: 10px;
 }
