@@ -7,7 +7,7 @@
     align-items: center;
     background: rgb(245, 245, 245, 0.8);
     z-index: 1000;
-    width: 100%;
+    width: 100vw;
     left: 0;
     right: 0;
 }
@@ -104,6 +104,10 @@
 }
 
 @media screen and (min-width: 768px) {
+    .navbar {
+        width: 100%;
+    }
+
     .navbar-logo {
         width: 12em;
     }

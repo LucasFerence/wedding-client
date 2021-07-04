@@ -16,16 +16,16 @@
 
 .card-main h4 {
     margin: 0.25em 0;
-    font-size: 1.5rem;
+    font-size: 7.5vw;
 }
 .card-main h3 {
     margin: 0.25em 0;
-    font-size: 1.75rem;
+    font-size: 8vw;
 }
 
 .card-main h5 {
     margin: .25em 0;
-    font-size: 1.35rem;
+    font-size: 6vw;
 }
 
 .card-main img {
@@ -34,4 +34,32 @@
     object-fit: cover;
     margin: 0.25em;
     border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .card-container {
+        width: auto;
+    }
+
+    .card-main {
+        padding: 0.25vw;
+        max-width: 18vw;
+    }
+
+    .card-main h4 {
+        font-size: 1.35vw;
+    }
+
+    .card-main h3 {
+        font-size: 1.5vw;
+    }
+
+    .card-main h5 {
+        font-size: 0.85vw;
+    }
+
+    .card-main img {
+        width: 16vw;
+        height: 16vw;
+    }
 }

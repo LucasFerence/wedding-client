@@ -3,6 +3,7 @@
     display: block;
     padding: 0.5em;
     font-size: 1.5rem;
+    text-decoration: underline var(--sage);
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
 }
@@ -11,4 +12,19 @@
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
+}
+
+@media screen and (min-width: 768px) {
+    .party-header {
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    .people-group {
+        display: flex;
+        flex: 1 1 0px;
+        justify-content: space-around;
+        overflow-x: hidden;
+        white-space: normal;
+    }
 }
