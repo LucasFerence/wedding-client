@@ -24,20 +24,22 @@
     left: 0;
     height: 100vh;
     background: rgb(245, 245, 245);
-    padding: 2em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    padding: 1em;
     z-index: 1001;
-    text-transform: uppercase;
     transform: translateX(-100%);
     transition: transform 0.5s;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .nav-link {
+    display: block;
     text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    background: transparent;
+    border: 3px solid transparent;
     color: black;
+    margin: 15vh 0;
 }
 
 .nav-link:hover {
@@ -118,7 +120,8 @@
         height: initial;
         background-color: transparent;
         padding: 0;
-        justify-content: initial;
+        justify-content: space-around;
+        display: flex;
         flex-direction: row;
         transform: initial;
         transition: initial;
@@ -126,7 +129,6 @@
 
     .nav-link {
         margin: 0.5em;
-        font-size: 1.6rem;
         transition: all 0.1s;
     }
     
