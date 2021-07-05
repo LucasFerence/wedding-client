@@ -40,6 +40,11 @@ class Nav extends React.Component {
                                 Gift Registry
                             </a>
                         </li>
+                        <li className="nav-item">
+                            <button type="button" className="nav-link">
+                                rsvp
+                            </button>
+                        </li>
                     </ul>
                     <div className="menu-toggle" onClick={this.toggleMobileNav}>
                         <div className="hamburger" />
