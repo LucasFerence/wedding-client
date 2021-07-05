@@ -1,28 +1,52 @@
 import React from 'react';
 import './nav.css';
 
+import Modal from 'components/modal/modal';
+import RsvpForm from 'views/rsvp/rsvpForm';
+
 class Nav extends React.Component {
 
     constructor(props) {
         super(props);
 
         this.state = {
-            showMobileNav: false
+            showMobileNav: false,
+            showModal: false
         };
 
+        this.showModal = this.showModal.bind(this);
+        this.hideModal = this.hideModal.bind(this);
         this.toggleMobileNav = this.toggleMobileNav.bind(this);
     }
 
-    toggleMobileNav = () => {
-        console.log('Toggle nav')
+    showModal = () => {
         this.setState(prev => ({
-            showMobileNav: !prev.showMobileNav
+            showMobileNav: false,
+            showModal: true
+        }));
+    };
+
+    hideModal = () => {
+        this.setState(prev => ({
+            showMobileNav: prev.showMobileNav,
+            showModal: false
+        }));
+    };
+
+    toggleMobileNav = () => {
+        this.setState(prev => ({
+            showMobileNav: !prev.showMobileNav,
+            showModal: prev.showModal
         }));
     };
 
     render() {
         return (
             <div>
+                <Modal show={this.state.showModal} handleClose={this.hideModal}>
+                    <RsvpForm onSubmit={this.hideModal}/>
+                </Modal>
+
                 <nav className={"navbar " + (this.state.showMobileNav ? "open" : null)}>
                     <img
                         className="navbar-logo"
@@ -40,8 +64,8 @@ class Nav extends React.Component {
                                 Gift Registry
                             </a>
                         </li>
-                        <li className="nav-item">
-                            <button type="button" className="nav-link">
+                        <li className="nav-item" style={{"display": "none"}}>
+                            <button type="button" className="nav-link" onClick={this.showModal}>
                                 rsvp
                             </button>
                         </li>

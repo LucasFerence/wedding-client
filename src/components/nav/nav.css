@@ -42,10 +42,6 @@
     margin: 15vh 0;
 }
 
-button.nav-link {
-    border: 3px solid transparent;
-}
-
 .nav-link:hover {
     border-bottom: 3px solid var(--sage);
 }

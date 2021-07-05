@@ -33,22 +33,16 @@ class RsvpForm extends React.Component {
     render() {
         return (
             <form onSubmit={this.handleSubmit}>
-                <h2 className="formLabel">Name</h2>
+                <h2 className="form-label">Name</h2>
                 <input
-                    className="textInput"
+                    className="text-input"
                     type="text"
                     value={this.state.name}
                     onChange={this.handleChange}
                 />
 
-                <h2 className="formLabel">Food</h2>
-                <select className="dropdown">
-                    <option value="soup">Soup</option>
-                    <option value="salad">Salad</option>
-                </select>
-
                 <input
-                    className="submitButton"
+                    className="submit-button"
                     type="submit"
                     value="ATTEND"
                 />
