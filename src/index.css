@@ -1,62 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Pinyon+Script&family=Poppins&display=swap');
+@import './common/fonts.css';
+
 :root {
     --dustyrose: rgb(220, 174, 150);
     --sage: rgb(155, 161, 123);
-    --dustyblue: rgb(136, 155, 174);
 }
 
 * {
     margin: 0;
     padding: 0;
-}
-
-.headerContainer {
-    position: relative;
-    width: 100%;
-}
-
-.centeredTitle {
-    position: absolute;
-    top: 10%;
-    width: 9.5vw;
-    text-align: center;
-    right: 2.5%;
-    padding: 0 1.5vw;
-    border: 0.2vw solid var(--dustyrose);
-    border-radius: 5px;
-    font-family: 'Poppins', sans-serif;
-}
-
-#weddingDate {
-    color: whitesmoke;
-    font-size: 6.5vw;
-    font-weight: normal;
-}
-
-.headerImg {
-    width: 100%;
-    height: auto;
-}
-
-.sectionHeader {
-    padding: 14px 28px;
-    text-align: center;
-    font-size: 2.5vw;
-    font-family: 'Merriweather', serif;
-}
-
-.contentSection {
-    display: inline-block;
-    width: 100vw;
-    min-width: 50vw;
-}
-
-.people-group {
-    display: flex;
-    flex: 1 1 0px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    justify-content: space-around;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
 }

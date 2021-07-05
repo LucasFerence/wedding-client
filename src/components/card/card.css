@@ -1,0 +1,65 @@
+.card-container {
+    width: 100vw;
+    display: inline-block;
+}
+
+.card-main {
+    text-align: center;
+    margin: 0.5em 0.5em;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background: whitesmoke;
+    border: 1px solid var(--sage);
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+.card-main h4 {
+    margin: 0.25em 0;
+    font-size: 7.5vw;
+}
+.card-main h3 {
+    margin: 0.25em 0;
+    font-size: 7.5vw;
+}
+
+.card-main h5 {
+    margin: .25em 0;
+    font-size: 5vw;
+}
+
+.card-main img {
+    width: 90vw;
+    height: 90vw;
+    object-fit: cover;
+    margin: 0.25em;
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 768px) {
+    .card-container {
+        width: auto;
+    }
+
+    .card-main {
+        padding: 0.25vw;
+        max-width: 18vw;
+    }
+
+    .card-main h4 {
+        font-size: 1.35vw;
+    }
+
+    .card-main h3 {
+        font-size: 1.5vw;
+    }
+
+    .card-main h5 {
+        font-size: 0.85vw;
+    }
+
+    .card-main img {
+        width: 16vw;
+        height: 16vw;
+    }
+}
