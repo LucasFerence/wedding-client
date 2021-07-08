@@ -10,6 +10,9 @@ class Party extends React.Component {
             <div id="bridal-party">
                 <h2 className="party-header">Bridal Party</h2>
 
+                <div className="scroll-helper">
+                    Scroll &rarr;
+                </div>
                 <div className="people-group">
                     <Card
                         title="Kristi Senft" role="Bride" note="His queen"
@@ -28,6 +31,9 @@ class Party extends React.Component {
                         img={process.env.PUBLIC_URL + '/img/matthewImage.jpg'}/>
                 </div>
 
+                <div className="scroll-helper">
+                    Scroll &rarr;
+                </div>
                 <div className="people-group">
                     <Card 
                         title="Lucas Ference" role="Groom" note="Her king"
