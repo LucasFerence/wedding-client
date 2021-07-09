@@ -60,8 +60,8 @@ class Nav extends React.Component {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="#gift-registry" onClick={this.toggleMobileNav}>
-                                Gift Registry
+                            <a className="nav-link" href="#gallery" onClick={this.toggleMobileNav}>
+                                Gallery
                             </a>
                         </li>
                         <li className="nav-item" style={{"display": "none"}}>
