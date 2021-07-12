@@ -1,7 +1,25 @@
 @import "~react-image-gallery/styles/css/image-gallery.css";
 
+.image-gallery-slide img {
+    width: 100%;
+    height: 50vh;
+}
+
+.fullscreen .image-gallery-slide img {
+    width: 100%;
+    height: 100vh;
+}
+
 .gallery-container {
     margin: 0.5em;
+}
+
+.gallery-image {
+    height: 50vh;
+}
+
+.fullscreen .gallery-image {
+    height: 100vh;
 }
 
 .gallery-header {
@@ -19,7 +37,12 @@
         font-size: 2.5rem;
     }
 
+    .image-gallery-slide img {
+        width: 100%;
+        height: 70vh;
+    }
+
     .gallery-image {
-        height: 85vh;
+        height: 70vh;
     }
 }
