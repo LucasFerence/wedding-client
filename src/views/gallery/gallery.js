@@ -27,6 +27,7 @@ const Gallery = () => {
                 additionalClass="gallery-container"
                 items={images}
                 lazyLoad={true}
+                showFullscreenButton={false}
                 showThumbnails={false}
             />
         </div>
