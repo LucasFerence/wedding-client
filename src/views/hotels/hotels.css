@@ -1,0 +1,56 @@
+.hotels-header {
+    display: block;
+    padding: 0.5em;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: underline var(--sage);
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hotel-description {
+    display: block;
+    margin: 1em;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Great Vibes';
+}
+
+.hotel-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.hotel-link {
+    display: inline-block;
+    padding: 0.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    border: 1px solid var(--sage);
+    border-radius: 5px;
+}
+
+.hotel-link:hover {
+    background-color: var(--dustyrose);
+}
+
+
+@media screen and (min-width: 768px) {
+    .hotels-header {
+        font-size: 2.5rem;
+    }
+
+    .hotel-description {
+        font-size: 2.25rem;
+    }
+
+    .hotel-link {
+        font-size: 3vw;
+        border: 2px solid var(--sage);
+    }
+}

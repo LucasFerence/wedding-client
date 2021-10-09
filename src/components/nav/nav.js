@@ -54,21 +54,31 @@ class Nav extends React.Component {
                         alt="logo"
                     />
                     <ul className="nav-list">
+
+                        <li className="nav-item">
+                            <a className="nav-link" href="#hotels" onClick={this.toggleMobileNav}>
+                                Lodging
+                            </a>
+                        </li>
+
                         <li className="nav-item">
                             <a className="nav-link" href="#bridal-party" onClick={this.toggleMobileNav}>
                                 Bridal Party
                             </a>
                         </li>
+
                         <li className="nav-item">
                             <a className="nav-link" href="#gallery" onClick={this.toggleMobileNav}>
                                 Gallery
                             </a>
                         </li>
+
                         <li className="nav-item" style={{"display": "none"}}>
                             <button type="button" className="nav-link" onClick={this.showModal}>
                                 rsvp
                             </button>
                         </li>
+
                     </ul>
                     <div className="menu-toggle" onClick={this.toggleMobileNav}>
                         <div className="hamburger" />
