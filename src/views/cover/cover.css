@@ -4,11 +4,12 @@
     position: relative;
     object-fit: cover;
     overflow: hidden;
+    height: 100vh;
 }
 
 .cover-img {
-    height: 100vh;
-    transform: translateX(-35vh);
+    height: 100%;
+    transform: translateX(-41vh);
 }
 
 .cover-text {
