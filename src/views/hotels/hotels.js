@@ -14,6 +14,7 @@ class Hotels extends React.Component {
                         <p>
                             These links are part of a complimentary hotel booking by Marriot.
                             They provide discounted rates at a nearby hotel.
+                            The hotel is roughly 10 minutes away from the venue.
                         </p>
                     </div>
 
