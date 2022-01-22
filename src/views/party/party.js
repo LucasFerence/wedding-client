@@ -18,16 +18,16 @@ class Party extends React.Component {
                         title="Kristi Senft" role="Bride" note="His queen"
                         img={process.env.PUBLIC_URL + '/img/kristiImage.jpg'}/>
                     <Card
-                        title="Shelby Smith" role="Maid of Honor" note="Friend of bride"
+                        title="Shelby Smith" role="Maid of Honor" note="Won't let the bride name her cat"
                         img={process.env.PUBLIC_URL + '/img/shelbyImage.jpg'}/>
                     <Card
-                        title="Morgan Walker" role="Bridesmaid" note="Friend of bride"
+                        title="Morgan Walker" role="Bridesmaid" note="She likes plants"
                         img={process.env.PUBLIC_URL + '/img/morganImage.jpg'}/>
                     <Card
-                        title="Kaitlyn Senft" role="Bridesmaid" note="Sister of bride"
+                        title="Kaitlyn Senft" role="Bridesmaid" note="Most organized fridge"
                         img={process.env.PUBLIC_URL + '/img/kaitlynImage.jpg'}/>
                     <Card
-                        title="Matthew Schlessinger" role="Bridesman" note="Cousin of bride"
+                        title="Matthew Schlessinger" role="Bridesman" note="Freezing cold football takes"
                         img={process.env.PUBLIC_URL + '/img/matthewImage.jpg'}/>
                 </div>
 

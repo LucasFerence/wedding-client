@@ -1,4 +1,4 @@
-.hotels-header {
+.registry-header {
     display: block;
     padding: 0.5em;
     font-size: 1.5rem;
@@ -7,7 +7,7 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.hotel-description {
+.registry-description {
     display: block;
     margin: 1em;
     font-size: 1rem;
@@ -15,14 +15,14 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.hotel-links {
+.registry-links {
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-bottom: 2em;
 }
 
-.hotel-link {
+.registry-link {
     display: inline-block;
     padding: 0.5em;
     font-family: 'Montserrat', sans-serif;
@@ -36,21 +36,21 @@
     width: 30%;
 }
 
-.hotel-link:hover {
+.registry-link:hover {
     background-color: var(--dustyrose);
 }
 
 
 @media screen and (min-width: 768px) {
-    .hotels-header {
+    .registry-header {
         font-size: 2.5rem;
     }
 
-    .hotel-description {
+    .registry-description {
         font-size: 2rem;
     }
 
-    .hotel-link {
+    .registry-link {
         font-size: 3vw;
         border: 2px solid var(--sage);
     }

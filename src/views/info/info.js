@@ -37,8 +37,6 @@ class Info extends React.Component {
                         The last day to book a hotel room through the provided links is May 13th, 2022.
                     </p>
                 </div>
-
-                <hr />
             </div>
         );
     }
