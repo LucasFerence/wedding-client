@@ -11,12 +11,12 @@ class Hotels extends React.Component {
                 <h2 className="hotels-header">Logding Links</h2>
 
                 <div className="hotel-description">
-                        <p>
-                            These links are part of a complimentary hotel booking by Marriot.
-                            They provide discounted rates at a nearby hotel.
-                            The hotel is roughly 10 minutes away from the venue.
-                        </p>
-                    </div>
+                    <p>
+                        These links are part of a complimentary hotel booking by Marriot.
+                        They provide discounted rates at a nearby hotel.
+                        The hotel is roughly 10 minutes away from the venue.
+                    </p>
+                </div>
 
                 <div className="hotel-links">
 

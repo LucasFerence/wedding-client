@@ -8,6 +8,7 @@ import Cover from 'views/cover/cover.js';
 import Hotels from 'views/hotels/hotels.js';
 import Party from 'views/party/party.js';
 import Gallery from 'views/gallery/gallery.js'
+import Info from 'views/info/info.js'
 
 class App extends React.Component {
 
@@ -18,6 +19,7 @@ class App extends React.Component {
                 <Cover />
                 <Hotels />
                 <Party />
+                <Info />
                 <Gallery />
             </main>
         );

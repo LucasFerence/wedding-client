@@ -21,8 +21,6 @@ const Gallery = () => {
 
     return(
         <div id="gallery">
-            <h2 className="gallery-header">Gallery</h2>
-
             <ImageGallery
                 additionalClass="gallery-container"
                 items={images}
