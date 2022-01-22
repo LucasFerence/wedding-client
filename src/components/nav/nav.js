@@ -1,9 +1,6 @@
 import React from 'react';
 import './nav.css';
 
-import Modal from 'components/modal/modal';
-import RsvpForm from 'views/rsvp/rsvpForm';
-
 class Nav extends React.Component {
 
     constructor(props) {
@@ -43,9 +40,6 @@ class Nav extends React.Component {
     render() {
         return (
             <div>
-                <Modal show={this.state.showModal} handleClose={this.hideModal}>
-                    <RsvpForm onSubmit={this.hideModal}/>
-                </Modal>
 
                 <nav className={"navbar " + (this.state.showMobileNav ? "open" : null)}>
                     <img
@@ -54,6 +48,17 @@ class Nav extends React.Component {
                         alt="logo"
                     />
                     <ul className="nav-list">
+
+                        <li className="nav-item">
+                            <a
+                                type="button"
+                                className="nav-link"
+                                href="https://ferenceforalways.anrsvp.com/"
+                                target="_blank"
+                                rel="noreferrer">
+                                RSVP
+                            </a>
+                        </li>
 
                         <li className="nav-item">
                             <a className="nav-link" href="#hotels" onClick={this.toggleMobileNav}>
@@ -65,18 +70,6 @@ class Nav extends React.Component {
                             <a className="nav-link" href="#bridal-party" onClick={this.toggleMobileNav}>
                                 Bridal Party
                             </a>
-                        </li>
-
-                        <li className="nav-item">
-                            <a className="nav-link" href="#gallery" onClick={this.toggleMobileNav}>
-                                Gallery
-                            </a>
-                        </li>
-
-                        <li className="nav-item" style={{"display": "none"}}>
-                            <button type="button" className="nav-link" onClick={this.showModal}>
-                                rsvp
-                            </button>
                         </li>
 
                     </ul>
