@@ -73,8 +73,8 @@ class Nav extends React.Component {
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="#bridal-party" onClick={this.toggleMobileNav}>
-                                Bridal Party
+                            <a className="nav-link" href="#info" onClick={this.toggleMobileNav}>
+                                Info
                             </a>
                         </li>
 

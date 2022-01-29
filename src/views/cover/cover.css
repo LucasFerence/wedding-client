@@ -14,10 +14,9 @@
 
 .cover-text {
     box-sizing: border-box;
-    top: 12.5vh;
-    right: 0;
-    margin-right: 0.5em;
-    width: 3.2em;
+    top: 12vh;
+    left: 0;
+    margin-left: 0.5em;
     position: absolute;
     background: transparent;
     border: 0.15em solid var(--dustyrose);
@@ -29,7 +28,7 @@
 #wedding-date {
     font-family: 'Montserrat', sans-serif;
     color: black;
-    font-size: 2rem;
+    font-size: 2.6rem;
     font-weight: normal;
 }
 
@@ -42,12 +41,12 @@
     }
 
     .cover-text {
-        width: 12vw;
+        top: 9vh;
         margin-right: 1em;
+        border: 0.25em solid var(--dustyrose);
     }
 
     #wedding-date {
         font-size: 7vw;
-        color: whitesmoke;
     }
 }

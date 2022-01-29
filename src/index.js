@@ -26,11 +26,11 @@ class App extends React.Component {
 
                 <hr className="sectionDivider" />
 
-                <Party />
+                <Info />
 
                 <hr className="sectionDivider" />
 
-                <Info />
+                <Party />
 
                 <hr className="sectionDivider" />
 
