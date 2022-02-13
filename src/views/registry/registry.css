@@ -33,7 +33,7 @@
     color: black;
     border: 1px solid var(--sage);
     border-radius: 5px;
-    width: 30%;
+    width: 35%;
 }
 
 .registry-link:hover {
