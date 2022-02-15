@@ -6,9 +6,7 @@ class Hotels extends React.Component {
     render() {
 
         return (
-            <div id="hotels">
-
-                <h2 className="hotels-header">Logding Links</h2>
+            <div>
 
                 <div className="hotel-description">
                     <p>

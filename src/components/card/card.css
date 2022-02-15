@@ -1,5 +1,5 @@
 .card-container {
-    width: 100vw;
+    width: 90vw;
     display: inline-block;
 }
 
@@ -29,8 +29,8 @@
 }
 
 .card-main img {
-    width: 90vw;
-    height: 90vw;
+    width: 80vw;
+    height: 80vw;
     object-fit: cover;
     margin: 0.25em;
     border-radius: 10px;

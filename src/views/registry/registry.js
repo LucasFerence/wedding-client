@@ -6,9 +6,7 @@ class Registry extends React.Component {
     render() {
 
         return (
-            <div id="registry">
-
-                <h2 className="registry-header">Registry Links</h2>
+            <div>
 
                 <div className="registry-description">
                     <p>We appreciate you thinking of us!</p>
@@ -22,7 +20,7 @@ class Registry extends React.Component {
 
                     <a
                         className="registry-link"
-                        href="https://google.com"
+                        href="https://www.amazon.com/wedding/share/ferenceforalways"
                         target="_blank"
                         rel="noreferrer">
                         Amazon
@@ -30,7 +28,7 @@ class Registry extends React.Component {
 
                     <a
                         className="registry-link"
-                        href="https://google.com"
+                        href="https://cruiseplanners.honeymoonwishes.com/Honeymoon-Registry-428581-Costa-Rica-Kristi-Senft-Lucas-Ference.html"
                         target="_blank"
                         rel="noreferrer">
                         Honeymoon

@@ -1,12 +1,3 @@
-.hotels-header {
-    display: block;
-    padding: 0.5em;
-    font-size: 1.5rem;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-}
-
 .hotel-description {
     display: block;
     margin: 1em;
@@ -37,14 +28,10 @@
 }
 
 .hotel-link:hover {
-    background-color: var(--dustyrose);
+    background-color: rgb(220, 174, 150, 0.4);
 }
 
-
 @media screen and (min-width: 768px) {
-    .hotels-header {
-        font-size: 2.5rem;
-    }
 
     .hotel-description {
         font-size: 2rem;

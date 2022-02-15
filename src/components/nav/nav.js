@@ -61,19 +61,46 @@ class Nav extends React.Component {
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="#hotels" onClick={this.toggleMobileNav}>
+                            <a
+                                className="nav-link"
+                                href="#hotels"
+                                onClick={
+                                    () => {
+                                        this.toggleMobileNav();
+                                        this.props.openArea('hotels');
+                                    }
+                                }
+                            >
                                 Lodging
                             </a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="#registry" onClick={this.toggleMobileNav}>
+                            <a
+                                className="nav-link"
+                                href="#registry"
+                                onClick={
+                                    () => {
+                                        this.toggleMobileNav();
+                                        this.props.openArea('registry');
+                                    }
+                                }
+                            >
                                 Registry
                             </a>
                         </li>
 
                         <li className="nav-item">
-                            <a className="nav-link" href="#info" onClick={this.toggleMobileNav}>
+                            <a
+                                className="nav-link"
+                                href="#info"
+                                onClick={
+                                    () => {
+                                        this.toggleMobileNav();
+                                        this.props.openArea('info');
+                                    }
+                                }
+                            >
                                 Info
                             </a>
                         </li>

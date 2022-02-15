@@ -6,9 +6,7 @@ class Info extends React.Component {
     render() {
 
         return (
-            <div id="info">
-
-                <h2 className="hotels-header">Info</h2>
+            <div>
 
                 <h3 className="info-subhead">Parking</h3>
                 <div className="info-detail">
