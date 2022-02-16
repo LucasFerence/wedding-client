@@ -10,7 +10,21 @@ export default class Cover extends React.Component {
                     <h1 id="wedding-date">
                         06 &#9671; 12 &#9671; 22
                     </h1>
+
+                    <a
+                        type="button"
+                        className='cover-link'
+                        href="https://ferenceforalways.anrsvp.com/"
+                        target="_blank"
+                        rel="noreferrer">
+                        RSVP
+                    </a>
                 </div>
+
+                <div className="cover-rsvp">
+                    
+                </div>
+
 
                 <img
                     className="cover-img"
