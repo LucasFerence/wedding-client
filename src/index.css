@@ -53,8 +53,4 @@
     .collapsible .header {
         font-size: 2.5rem;
     }
-
-    .hidden-on-mobile {
-        display: unset;
-    }
 }
