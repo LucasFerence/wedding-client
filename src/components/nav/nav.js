@@ -49,7 +49,7 @@ class Nav extends React.Component {
                     />
                     <ul className="nav-list">
 
-                        <li className="nav-item hidden-on-mobile">
+                        <li className="nav-item">
                             <a
                                 type="button"
                                 className="nav-link"
