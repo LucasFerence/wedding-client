@@ -81,7 +81,7 @@ class App extends React.Component {
                     id='hotels'
                     toggled={this.state.toggledOpenArea}
                     reset={this.reset}
-                    header='Loding Links'
+                    header='Lodging Links'
                     content={<Hotels />}
                 />
 
